@@ -1,0 +1,38 @@
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 txsy
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 cmr10
+mktextfm txsy
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 txsy
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 cmr10
+mktextfm txsy
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 txsy
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 cmr10
+mktextfm txsy
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 txsy
+mktexpk --mfmode / --bdpi 600 --mag 0+480/600 --dpi 480 cmr10
+mktextfm txsy
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 cmss9
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 cmr10
+mktextfm cmss9
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 cmss9
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 cmr10
+mktextfm cmss9
+mktextfm cmr10
+mktexpk --mfmode / --bdpi 600 --mag 0+450/600 --dpi 450 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 mathkerncmssi10
+mktexpk --mfmode / --bdpi 600 --mag 0+450/600 --dpi 450 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 mathkerncmssi10
+mktexpk --mfmode / --bdpi 600 --mag 0+450/600 --dpi 450 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 mathkerncmssi10
+mktexpk --mfmode / --bdpi 600 --mag 0+450/600 --dpi 450 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+0/600 --dpi 600 mathkerncmssi8
+mktexpk --mfmode / --bdpi 600 --mag 1+57/600 --dpi 657 mathkerncmssi10
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 tfrupee
+mktexpk --mfmode / --bdpi 600 --mag 1+120/600 --dpi 720 tfrupee

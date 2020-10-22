@@ -1,0 +1,48 @@
+#include<stdio.h>
+
+int main()
+{
+int i,num1,y,num2,den1,den2,r,res,count,t,num,e,s,d,num11;
+scanf("%d",&t);
+	for(i=0;i<t;i++)
+	{
+		scanf("%d %d %d %d",&num1,&den1,&num2,&den2);
+	
+		count=0;
+		while(r!=0)
+		{
+			count++;
+			y=den1*count;
+			r=y%den2;
+			
+			
+			if(r==0)
+			{
+				num=(((num2)*(y/(den2)))+((num1)*(y/den1)));
+				
+				
+		    }
+		
+		}
+		num11=num;
+		e=1;
+		while(e!=0)
+		{
+			d=y/num11;
+			e=y%num11;
+			if(e!=0)
+			{
+				y=num11;
+				num11=e;
+			}
+		  else if(e==0)
+			{
+				y=y/num11;
+				num=num/num11;
+				printf("%d/%d",num,y);
+			}
+	}
+	}
+return 0;
+}
+			

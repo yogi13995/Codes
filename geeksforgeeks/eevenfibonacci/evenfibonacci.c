@@ -1,0 +1,33 @@
+#include<stdio.h>
+
+int main()
+{
+int i,j,t,n,count;
+long long unsigned int a,b,c;
+scanf("%d",&t);
+	for(i=0;i<t;i++)
+	{
+		scanf("%d",&n);
+		c=0;
+		b=1;
+		count=0;
+		
+		while(count<n)
+		{
+			a=(b+c)%2000000014;
+			c=b;
+			b=a;
+			
+			if((a%2)==0)
+			{
+			count++;
+		    }
+		    if((a%2)==0 && count==n)
+		    {
+		    	printf("%llu\n",a%1000000007);
+		    	break;
+		    }
+		 }
+     }
+return 0;
+}

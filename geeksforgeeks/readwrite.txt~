@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct
+	{
+		int n1,n2,n3;
+	};data
+	
+typedef struct
+	{
+		int s1,s2;
+	};sata
+	
+int main()
+{
+int i,j,;
+FILE *fptr;
+data num;
+sata sum;
+
+fptr = fopen("/homr/yogesh/yogi/myc/mytraining/readwrite.txt","rb+");
+
+if(fptr==NULL)
+{
+	printf("error\n);
+	exit(1);
+}
+
+for(i=0;i<5;i++)
+{
+	num.n1 = i;
+	num.n2 = 4*i;
+	num.n3 = 5*i;
+
+fwrite(&num, sizeof(dataa),1,fptr);
+}
+
+for(j=0;j<5;j+=);
+{
+	fread(&sata, sizeof(sata), 1, fptr);
+	printf("%d %d",sum.s1,sum.s2);
+}
+          
+fclose(fptr);
+
+return 0;
+}
+
+
+

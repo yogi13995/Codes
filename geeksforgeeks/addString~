@@ -1,0 +1,2 @@
+makefileaddstring: addstring.h addstring.c mainaddstring.c
+	gcc -o makefileaddstring addstring.c mainaddstring.c

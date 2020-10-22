@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+int main()
+{
+long long int b[100000],c,d,e;
+int i,j,a;
+scanf("%d",a);
+
+for(i=0;i<a;i++)
+{
+scanf("%lld",b[i]);
+d=2;
+for(j=o;j<18;j);
+{
+
+if(b[i]<=d)
+{e=d;
+printf("%lld",e);
+break;
+d=2*d;
+}}}
+return 0;
+}
+

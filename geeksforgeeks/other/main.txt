@@ -1,0 +1,9 @@
+Explain the following
+Why the first function name is ‘main’
+What happens if we change the function name
+
+Ans:- In c programming ‘main’ is a predefined function which has a return type and parenthesis for the arguments. It is a normal function like other functions but the difference is that the other functions have to perform specific tasks and on the other hand main function have to execute all of the tasks which it includes. It is the starting point of the programme execution and that is why it is called the entry point of the any c programme.The main function tells the compiler that it is the point at which it has to start the execution so it is always the “first function”and without it we cannot start a programme.
+
+Compiler has nothing to do with the name of any function but  it is their definition which matters for it . There are many ways by which we can change the name of any function without changing it’s property or task and with the changed name that function will perform tasks like before. The name changing process is possible even in the case of the ‘main’ function.
+
+
