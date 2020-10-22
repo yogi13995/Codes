@@ -1,0 +1,10 @@
+#ifndef YOGI
+#define YOGI
+#include<stdio.h>
+    int n;
+	void inputArray(int a[n][n]);
+	void multiplication(int a[n][n], int b[n][n], int c[n][n]);
+	void display(int a[n][n]);
+	
+#endif
+	
